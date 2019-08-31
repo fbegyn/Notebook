@@ -43,4 +43,28 @@ This can be done by preparing actions needed to be taken in a playbook.
 
 ### Change management
 
+Outages occur mostly when changes in a system occur (70% of outages). To minimalise the eefect of
+chagnes there are 3 principles to follow:
+
+* Implementing progressive rollouts
+* Quickly and accurately determining problems
+* Rolling back changes safely when problems arise
+
+# Demand forecasting and capacity planning
+
+SRE's should look to ensure that a system has enough resources to grow and be redundant.
+
+* organic grow should be taken into account
+* inorganic grow also (new feature releases, ...)
+* load testing to correlate raw server capacity to service capacity
+
+### Provisioning
+
+
+> In our experience, provisioning must be conducted quickly and only when necessary, as capacity is expensive. This exercise must also be done correctly or capacity doesn’t work when needed. Adding new capacity often involves spinning up a new instance or location, making significant modification to existing systems (configuration files, load balancers, networking), and validating that the new capacity performs and delivers correct results.
+
+### Efficiency and performance
+
+> SREs provision to meet a capacity target at a specific response speed, and thus are keenly interested in a service’s performance. SREs and product developers will (and should) monitor and modify a service to improve its performance, thus adding capacity and improving efficiency.
+
 just a reminder where I was in https://landing.google.com/sre/sre-book/chapters/introduction/
