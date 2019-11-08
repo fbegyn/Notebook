@@ -67,4 +67,4 @@ SRE's should look to ensure that a system has enough resources to grow and be re
 
 > SREs provision to meet a capacity target at a specific response speed, and thus are keenly interested in a service’s performance. SREs and product developers will (and should) monitor and modify a service to improve its performance, thus adding capacity and improving efficiency.
 
-just a reminder where I was in https://landing.google.com/sre/sre-book/chapters/introduction/
+just a reminder where I was in https://landing.google.com/sre/sre-book/chapters/service-level-objectives/
