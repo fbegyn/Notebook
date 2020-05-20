@@ -1,51 +1,50 @@
-# Generated Index
-  - [index](index)
-  - [This vimwiki thing does not look bad](200520-2355.md)
-  - [Zettelkasten seems awesome](200520-2344.md)
-
 # Generated Tags
 
 ## books
 
-  - [ Google SRE book notes](google-sre-book.md)
+  - [ Google SRE book notes](google-sre-book)
 
 ## devops
 
-  - [What is an ssh-agent?](200521-0012.md)
+  - [What is an ssh-agent?](200521-0012)
 
 ## digital-electronics
 
-  - [Ontwerpmethodologie voor FPGAs](dmcs.md)
+  - [Ontwerpmethodologie voor FPGAs](dmcs)
 
 ## fpga
 
-  - [Ontwerpmethodologie voor FPGAs](dmcs.md)
+  - [Ontwerpmethodologie voor FPGAs](dmcs)
 
 ## imaging
 
-  - [Non line of sight imaging](nlos.md)
+  - [Non line of sight imaging](nlos)
 
 ## mathematics
 
-  - [Non line of sight imaging](nlos.md)
+  - [Non line of sight imaging](nlos)
 
 ## note-taking
 
-  - [This vimwiki thing does not look bad](200520-2355.md)
-  - [Zettelkasten seems awesome](200520-2344.md)
+  - [This vimwiki thing does not look bad](200520-2355)
+  - [Zettelkasten seems awesome](200520-2344)
+
+## personal
+
+  - [Write down your work](200521-0037.md)
 
 ## physics
 
-  - [Non line of sight imaging](nlos.md)
+  - [Non line of sight imaging](nlos)
 
 ## sre
 
-  - [ Google SRE book notes](google-sre-book.md)
+  - [ Google SRE book notes](google-sre-book)
 
 ## ssh
 
-  - [What is an ssh-agent?](200521-0012.md)
+  - [What is an ssh-agent?](200521-0012)
 
 ## ugent
 
-  - [Ontwerpmethodologie voor FPGAs](dmcs.md)
+  - [Ontwerpmethodologie voor FPGAs](dmcs)
