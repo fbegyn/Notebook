@@ -1,8 +1,11 @@
+---
+title: Ontwerpmethodologie voor FPGAs
+:digital-electronics:ugent:fpga:
+---
+
 # Ontwerpmothodologie voor FPGAs
 
 ## Statecharts
-
-
 
 ## Combinational datapath
 

@@ -1,3 +1,8 @@
+---
+title:  Google SRE book notes
+:sre:books:
+---
+
 # Site Reliability Enginerering
 
 * Site: Keep the entire ecosystem running
