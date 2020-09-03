@@ -1,6 +1,6 @@
 ---
 title:  Google SRE book notes
-:sre:books:
+:books:sre:
 ---
 
 # Site Reliability Enginerering
