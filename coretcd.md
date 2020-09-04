@@ -1,5 +1,8 @@
 ---
 date: 2020-09-03T16:45
+tags:
+  - project
+  - coretcd
 ---
 
 # coretcd

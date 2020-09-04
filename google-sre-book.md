@@ -1,6 +1,9 @@
 ---
 title:  Google SRE book notes
-:books:sre:
+tags:
+  - reading
+  - sre
+  - devops
 ---
 
 # Site Reliability Enginerering

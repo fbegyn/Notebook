@@ -1,6 +1,10 @@
 ---
 title: Non line of sight imaging
-:imaging:physics:mathematics:
+tags:
+  - article
+  - science
+  - optics
+  - nlos
 ---
 
 # NLOS
