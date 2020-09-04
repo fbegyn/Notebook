@@ -5,7 +5,6 @@ title: Non line of sight imaging
 
 # NLOS
 
-https://www.analytech-solutions.com/analytech-solutions/blog/nlos.html
-No Line Of Sight camera
+[No Line Of Sight camera](https://www.analytech-solutions.com/analytech-solutions/blog/nlos.html)
 Using the reflections of a laser beamed into a room to composite an image of what's around the
 corner. Very SOTA

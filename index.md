@@ -1,11 +1,9 @@
 # Overview
 
-* [[200520-2344.md]]
-* [[200520-2355.md]]
-* [[200521-0012.md]]
-* [[200521-0037.md]]
-* [[coretcd]]
-* [[devops.md]]
-* [[dmcs]]
-* [[google-sre-book]]
-* [[nlos]]
+Welcome to my notes! I hope you find what you are looking for in the unarganised mess. I make use
+of the amazing tool called [neuron](https://neuron.zettel.page/) to arganise my notes and see them
+in a neat manner.
+
+* <3d3291b9>
+* <59ff8b60>
+* <5481fbd2>
