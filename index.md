@@ -7,3 +7,4 @@ in a neat manner.
 * <3d3291b9>
 * <59ff8b60>
 * <5481fbd2>
+* <blog-notes>
