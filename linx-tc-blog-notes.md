@@ -70,3 +70,36 @@ use of 3 types of objects:
 
 The man page makes a note that filters reside within classes, and are not masters
 of what happen.
+
+
+There are 3 criteria on which TC decides what to do with the packet:
+
+* tc filters: filters attached to classes (as explained earlier)
+* type of service: some qdisc have rules to work on ToS fields of a packet
+* `skb->priority`: Userspace programs can set a priority by using the
+  `SO_PRIORITY` option
+
+Not all qdiscs will use all 3 criteria, and when no classification is done, the
+packet gets send to the leaf qdisc attached to the class.
+
+All objects have IDs (either manually specified or automagically generated). IDs
+exist of a `major` and `minor` part seperated by `:`.
+
+Qdiscs generally get assigned a `major:` id, which leaves te `minor` part
+available for classes. Classes have a `major:minor` id, the `major` part
+referring to the qdisc that holds the class and `minor` part for the classid.
+Filters have a 3 part ID (which isn't used commonly).
+
+There are 3 major qdiscs/hooks to which we can attach objects:
+
+* `root`: the normal egress traffic.
+* `ingress`: incoming traffic, so filters can be attached to it.
+* `clsact`: bot incoming and outgoing traffic. Used to attach classifiers to all
+  traffic of the stack.
+
+# sources
+
+* [FOSDEM talk 2016](https://archive.fosdem.org/2016/schedule/event/ebpf/attachments/slides/1159/export/events/attachments/ebpf/slides/1159/ebpf.pdf)
+* [tc manual](https://linux.die.net/man/8/tc) 
+* [tc-filters](http://linux-ip.net/gl/tc-filters/tc-filters.html)
+* [tc howto](https://tldp.org/HOWTO/Traffic-Control-HOWTO/index.html)
